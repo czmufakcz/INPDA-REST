@@ -1,4 +1,4 @@
-package com.upce.inpdarest.elements;
+package com.upce.elements;
 
 import java.util.Objects;
 
