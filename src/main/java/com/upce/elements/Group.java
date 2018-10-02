@@ -27,8 +27,8 @@ public class Group {
         return users;
     }
 
-    public void addUser(User user) {
-        users.put(user.getId(), user);
+    public User addUser(User user) {
+        return users.put(user.getId(), user);
     }
 
     public User removeUser(Integer idUser) {
